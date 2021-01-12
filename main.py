@@ -19,7 +19,7 @@ config = {
 }
 
 # ---------- FREE API KEY ---------------------
-owm = OWM('e68e5d5d92646e66428b0617f1e53cdd', config = config )
+owm = OWM('FREE API KEY', config = config )
 
 @eel.expose
 def get_weather(place):
